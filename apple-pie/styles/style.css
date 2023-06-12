@@ -93,3 +93,17 @@ main ol {
 ul {
   list-style-type: "-";
 }
+
+/* I could have changed the <ol> to look like 1) 2) 3) but I didn't because I dont understand yet how the code works, but I have it: 
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+} 
+
+I could have used but prefered not to, until I fully understand how that works.*/
