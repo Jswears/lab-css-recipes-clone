@@ -13,6 +13,7 @@ html {
 
 body {
   height: 100vw;
+  line-height: 1.5;
 }
 
 .header-background {
@@ -22,7 +23,6 @@ body {
   background-size: cover;
   position: relative;
   height: 700px;
-  width: 100%;
 }
 
 .header-text {
@@ -34,6 +34,46 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.border-bottom {
+  border-bottom: 1px solid grey;
+  margin: 30px;
+}
+
+.recipe-img {
+  display: block;
+  margin: 50px auto;
+}
+
+main p,
+main ul,
+main ol {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style-type: "-";
+}
+
+.margin-top-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro p {
+  font-size: 1.275rem;
+  padding-top: 80px;
+}
+
+h2 {
   font-weight: lighter;
 }
